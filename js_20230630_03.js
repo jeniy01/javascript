@@ -63,5 +63,8 @@ x = null
 console.log('x : ', x)
 console.log('x : ', typeof x)
 
-// 변수가 null인지 아닌지 알아보기
+// 변수가 null 인지 아닌지 알아보기
+// === : 값과 type 을 모두 비교함
 console.log(x === null);
+// == : 값만 비교함
+// console.log(x == null);

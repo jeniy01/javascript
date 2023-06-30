@@ -10,8 +10,6 @@ console.log('우리 학원은 "더조은" 학원입니다')
 // 탭 문자             : \t
 // 역슬래시            : \\
 
-let str1 = ''
-
 let str2 = `이순신은 조선 중기의 무신이었다. 본관은 덕수, 자는 여해, 시호는 
 충무였으며, 한성 출신이었다. 문반 가문 출신으로 1576년 무과에 급제하여 그 관직이 
 동구비보 권관, 훈련원 봉사, 발포진 수군만호, 조산보 만호, 전라남도수사를 거쳐 정헌대부 
@@ -24,9 +22,10 @@ let str4 = '이순신은 조선 중기의 무신이었다. 본관은 덕수, 자
 동구비보 권관, 훈련원 봉사, 발포진 수군만호, 조산보 만호, 전라남도수사를 거쳐 정헌대부 \
 삼도수군통제사에 이르렀다.'
 
-console.log(str1)
 console.log(str2)
+console.log('-----------------------')
 console.log(str3)
+console.log('-----------------------')
 console.log(str4)
 
 let str5 = `더조은 아이티       아카데미입니다
@@ -44,6 +43,7 @@ console.log('이름은',name1,'이고 나이는',age,'이고 키는', height,'cm
 console.log(`이름은 name1이고 나이는 age 이고 키는 height cm, 몸무게는 weight kg입니다`)
 console.log(`이름은 ${name1} 이고 나이는 ${age} 이고 키는 ${height} cm, 몸무게는 ${weight} kg 입니다`)
 /*
+cf. python 의 f-string
 print(f'이름은 {name1} 이고 나이는 {age} 이고 키는 {height} cm, 몸무게는 {weight} kg 입니다)
 */
 

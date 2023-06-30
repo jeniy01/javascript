@@ -22,6 +22,12 @@ function getUpperCase(id){
 }
 
 console.log(getUpperCase('python'))
+// Runtime Error 발생 : 숫자는 대문자로 변환하지 못함
 // console.log(getUpperCase(1234))
 
 console.log(123 + 345)
+
+// 문자열과 다른 type 을 + 연산하면 
+// 다른 type 도 문자열 type 으로 변환되고
+// 연결연산이 일어남
+console.log('123' + 345)
