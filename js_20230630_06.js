@@ -33,8 +33,7 @@ console.log(
 console.log(100 > 12)
 console.log('100' > '12')
 
-// 숫자와 문자열을 비교하면
-// 문자를 자동으로 숫자로 변환해서 비교함
+// 숫자와 문자열을 비교하면 문자를 자동으로 숫자로 변환해서 비교함
 console.log('100' > 12)
 
 let str1 = 'Hello ';
@@ -69,14 +68,12 @@ console.log('---------------------')
 // parseFloat(숫자모양의 문자열) : 문자열이 실수형으로 변환됨
 // Number(숫자모양의 문자열) : 문자열이 숫자로 변환됨
 
-// boolean type 의 값을 숫자로 형변환할 때는
-// Number() 로만 가능함
+// boolean type의 값을 숫자로 형변환할 때는 Number() 로만 가능함
 
 console.log('true  :',Number(true))
 console.log('false :',Number(false))
 
-// 숫자형과 boolean 형을 연산하면
-// boolean 값이 숫자로 변환됨
+// 숫자형과 boolean형을 연산하면 boolean 값이 숫자로 변환됨
 console.log(1234 + true)
 
 let str6 = 'hello ' + 1234 + true;

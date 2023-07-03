@@ -1,7 +1,7 @@
 console.log(0.1 + 0.2)
 console.log(0.1 + 0.2 === 0.3)
 
-// 2 의 제곱으로 이루어진 수들은 계산 결과가 정확함
+// 2의 제곱으로 이루어진 수들은 계산 결과가 정확함
 console.log(0.25 * 0.5)
 console.log(0.5 + 0.25 + 0.125 + 0.125)
 console.log(0.0625 / 0.25)
@@ -12,7 +12,7 @@ console.log(0.9 - 0.6)
 console.log(0.9 - 0.3)
 
 /*
-  boolean type 의 연산자
+  boolean type의 연산자
     ㄴ true, false
 */
 

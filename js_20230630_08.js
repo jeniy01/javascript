@@ -52,7 +52,7 @@ console.log(number1++, number1)
 number1 = '100';
 console.log(--number1, number1)
 
-// 숫자 모양의 문자열이 아니면 숫자형으로 자동형변환 안 됨 <-- NaN 가 됨
+// 숫자 모양의 문자열이 아니면 숫자형으로 자동형변환 안 됨 <-- NaN이 됨
 number1 = 'java';
 console.log(number1++, number1)
 
