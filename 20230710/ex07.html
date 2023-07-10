@@ -9,8 +9,36 @@
   <!-- node 추가 삭제-->
   <h1>javascript node</h1>
 
+  <p>SpringFramework</p>
+  <p>SpringFramework</p>
+  <p>SpringFramework</p>
+  <p>SpringFramework</p>
+  <p>SpringFramework</p>
  
   <script>
+    /*
+    const ps = document.querySelectorAll("p");
+    ps.forEach((pTage) =>{
+      pTage.parentNode.removeChild(pTage);
+    });*/
+   
+
+    const bodyChildren = document.body.childNodes;
+     /*
+     bodyChildren.forEach((node)=>{
+        console.log(node.nodeName);
+      }); 
+    */
+    // console.log(bodyChildren);
+
+    bodyChildren.forEach((node)=>{        
+        console.log(node.nodeName);
+        // nodeName 이 P 인 node 들을 삭제함
+        if(node.nodeName === 'P'){
+          node.parentNode.removeChild(node);
+        }
+    }); 
+
     // a tag 생성하기
     const element1 = document.createElement("a");
     // text node 생성하기
@@ -29,6 +57,9 @@
     document.body.appendChild(element1);
 
 
+    // h1 태그 삭제하기
+    const elementH1 = document.querySelector("h1");
+    elementH1.parentNode.removeChild(elementH1);
 
   </script>
 </body>
